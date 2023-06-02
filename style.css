@@ -28,6 +28,9 @@ section {
     transition: background-color 0.2s ease-in-out; 
     background-color: white;
 }
+section * {
+    cursor: pointer
+}
 
 section:hover {
     background-color: #f4f4f4;
@@ -41,10 +44,27 @@ section input {
     display: inline;
     margin-left: 18px;
     margin-right: 5px;
+    cursor: pointer;
+}
+
+.checado,
+.checado:hover {
+    background-color: greenyellow;
+    border: 2px solid green;
+}
+
+.error,
+.error:hover {
+    background-color: lightcoral;
+    border: 2px solid darkred;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
 section label {
-    display: inline;
+    display: block;
     font-size: 16px;
 }
 

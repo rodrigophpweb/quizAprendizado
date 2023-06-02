@@ -1,0 +1,172 @@
+[
+    {
+      "question": "1. Ao aprender algo novo, eu prefiro:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Ver demonstrações visuais que ilustrem o processo."
+        },
+        {
+          "value": "auditory",
+          "label": "Ouvir alguém explicar detalhadamente as informações."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Fazer e experimentar na prática."
+        }
+      ]
+    },
+    {
+      "question": "2. Durante uma palestra, eu presto mais atenção:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Nas apresentações visuais, como slides e gráficos."
+        },
+        {
+          "value": "auditory",
+          "label": "No que o palestrante está dizendo e nos sons ao redor."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Nos movimentos e gestos do palestrante."
+        }
+      ]
+    },
+    {
+      "question": "3. Quando estou tentando lembrar de algo, eu:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Visualizo imagens ou cenas relacionadas."
+        },
+        {
+          "value": "auditory",
+          "label": "Repito as informações em voz alta ou as discuto comigo mesmo."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Tento recriar a sensação física ou ação associada à informação."
+        }
+      ]
+    },
+    {
+      "question": "4. Ao ler um livro, eu prefiro:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Apreciar as descrições visuais e imaginar as cenas."
+        },
+        {
+          "value": "auditory",
+          "label": "Ler em voz alta ou ouvir alguém me contar a história."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Sentir o peso e a textura do livro enquanto leio."
+        }
+      ]
+    },
+    {
+      "question": "5. Durante uma conversa, eu costumo:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Observar a expressão facial e a linguagem corporal do interlocutor."
+        },
+        {
+          "value": "auditory",
+          "label": "Prestar atenção nas palavras e entonação utilizadas."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Tocar ou gesticular para enfatizar meus pontos de vista."
+        }
+      ]
+    },
+    {
+      "question": "6. Ao estudar, eu me sinto mais engajado quando:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Utilizo esquemas, mapas mentais ou gráficos para organizar as informações."
+        },
+        {
+          "value": "auditory",
+          "label": "Gravo minhas anotações e as ouço posteriormente."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Realizo atividades práticas que me permitem experimentar e aplicar o conhecimento."
+        }
+      ]
+    },
+    {
+      "question": "7. Durante uma apresentação, eu me sinto mais conectado quando:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Posso ver os slides, gráficos ou demonstrações visuais."
+        },
+        {
+          "value": "auditory",
+          "label": "Posso ouvir claramente as explicações e exemplos do palestrante."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Posso participar de atividades práticas ou discussões interativas."
+        }
+      ]
+    },
+    {
+      "question": "8. Ao planejar algo, eu prefiro:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Criar listas, diagramas ou desenhos para visualizar as etapas."
+        },
+        {
+          "value": "auditory",
+          "label": "Fazer uma lista de tarefas em voz alta ou discutir os planos com outras pessoas."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Mover-me fisicamente e agir para iniciar o processo de planejamento."
+        }
+      ]
+    },
+    {
+      "question": "9. Quando estou emocionalmente envolvido em uma situação, eu expresso meus sentimentos:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Através da linguagem corporal e expressões faciais."
+        },
+        {
+          "value": "auditory",
+          "label": "Através de palavras e comunicação verbal."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Através de ações físicas, como abraçar ou tocar as pessoas."
+        }
+      ]
+    },
+    {
+      "question": "10. Ao recordar uma memória vívida, eu geralmente me lembro:",
+      "options": [
+        {
+          "value": "visual",
+          "label": "Das imagens e detalhes visuais da cena."
+        },
+        {
+          "value": "auditory",
+          "label": "Das vozes, diálogos ou sons associados à situação."
+        },
+        {
+          "value": "kinesthetic",
+          "label": "Das sensações físicas e emoções experimentadas no momento."
+        }
+      ]
+    }
+  ]

@@ -1,4 +1,3 @@
-
 const form = document.querySelector('form');
 const result = document.querySelector('.result');
 const questions = document.querySelectorAll('.question');
@@ -19,19 +18,21 @@ form.addEventListener('submit', (e) => {
     return !checked;
   });
 
-  if (unansweredQuestions.length > 0) {
-    // Exibe a mensagem de erro para cada pergunta não respondida
-    unansweredQuestions.forEach((question) => {
-      const questionNumber = Array.from(questions).indexOf(question) + 1;
-      const errorText = document.createElement('p');
-      errorText.classList.add('errorText');
-      errorText.textContent = `A pergunta número ${questionNumber} não foi respondida, favor responder.`;
-      form.appendChild(errorText);
-    });
+    if (unansweredQuestions.length > 0) {
+        // Exibe a mensagem de erro para cada pergunta não respondida
+        unansweredQuestions.forEach((question) => {
+        const questionNumber = Array.from(questions).indexOf(question) + 1;
+        const errorText = document.createElement('p');
+        errorText.classList.add('errorText');
+        errorText.textContent = `A pergunta número ${questionNumber} não foi respondida, favor responder.`;
+        form.appendChild(errorText);
+        // Fill Section background red
+        question.classList.add('error');        
+        });
 
-    // Remove o resultado caso haja alguma pergunta não respondida
-    result.innerHTML = '';
-  } else {
+        // Remove o resultado caso haja alguma pergunta não respondida
+        result.innerHTML = '';
+    } else {
     /* Cálculo e exibição das mensagens */
     questions.forEach((question, index) => {
       const checked = question.querySelector('input:checked');
@@ -69,3 +70,18 @@ form.addEventListener('submit', (e) => {
     result.appendChild(resultText);
   }
 });    
+
+const radioInputs = document.querySelectorAll('input[type="radio"]');
+
+radioInputs.forEach(function (input) {
+  input.addEventListener('click', function (e) {
+    const question = e.target.closest('.question');
+    const checked = question.querySelector('input:checked');
+
+    if (checked) {
+      question.classList.add('checado');
+    } else {
+      question.classList.remove('checado');
+    }
+  });
+});
