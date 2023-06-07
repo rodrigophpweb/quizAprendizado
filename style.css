@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     padding: 5vh 15vw;
@@ -84,8 +84,91 @@ button:hover {
     background-color: red;
 }
 
-/*Media Query to Mobile*/
+#modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    height: 38vh;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    padding: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+#modal .btnClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    transition: color 0.2s ease-in-out;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+}
 
+#modal h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 20px 0;
+    width: 100%;
+    color: blueviolet;
+}
+
+#modal label {
+    font-weight: 400;
+}
+
+#modal input[name="your-name"],
+#modal input[name="your-email"] {
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+#modal input[name="your-name"]:focus,
+#modal input[name="your-email"]:focus {
+    border-color: blueviolet;
+}
+
+#modal input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: 0;
+    color: white;
+    text-transform: uppercase;            
+    transition: background-color 0.2s ease-in-out;
+    font-weight: 600;
+    margin-top: 15px
+}
+
+#modal input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+#modal::BackDrop {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+/*Media Query to Mobile*/
 @media (max-width: 768px) {
     body {
         padding: 5vh 5vw;
@@ -111,5 +194,27 @@ button:hover {
     button {
         width: 100%;
         padding: 1rem 2rem;
+    }
+
+    #modal {
+        width: 90vw;
+        height: 50vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #modal h2 {
+        width: 100%;
+    }
+
+    #modal input[name="your-name"],
+    #modal input[name="your-email"] {
+        width: 100%;
+    }
+
+    #modal input[type="submit"] {
+        width: 100%;
     }
 }
